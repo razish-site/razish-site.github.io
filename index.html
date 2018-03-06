@@ -171,12 +171,12 @@
                         <div class="col-md-6 control-input">
                             <div class="radio">
                                 <label for="attendence-0">
-                                    <input type="radio" name="attendence" id="attendence-0" value="yes" checked> Accept with Delight
+                                    <input type="radio" name="attendence" id="attendence-0" value="attend" checked> Accept with Delight
                                 </label>
                             </div>
                             <div class="radio">
                                 <label for="attendence-1">
-                                    <input type="radio" name="attendence" id="attendence-1" value="no"> Decline with Regret
+                                    <input type="radio" name="attendence" id="attendence-1" value="decline"> Decline with Regret
                                 </label>
                             </div>
                         </div>
@@ -185,9 +185,9 @@
                         <label class="col-md-6 control-label" for="dates">* Attendance</label>
                         <div class="col-md-6 control-input">
                             <select id="dates" name="dates" class="form-control">
-                                <option value="all">All of it: Park & Hall</option>
-                                <option value="saturday">Park Wedding</option>
-                                <option value="saturday">Hall Wedding</option>
+                                <option value="both">All of it: Ceremony & Evening</option>
+                                <option value="ceremony">Marriage Ceremony</option>
+                                <option value="evening">Traditional Evening</option>
                             </select>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                                 <input type="radio" name="diet" id="diet-0" value="none" checked> None
                             </label>
                             <label class="radio-inline" for="diet-1">
-                                <input type="radio" name="diet" id="diet-1" value="veg"> Vegetarian
+                                <input type="radio" name="diet" id="diet-1" value="vegetarian"> Vegetarian
                             </label>
                             <label class="radio-inline" for="diet-2">
                                 <input type="radio" name="diet" id="diet-2" value="other"> Other
@@ -210,7 +210,7 @@
         <div class="col-lg-8 mx-auto text-center">
           <img src="img/cornerflourishbottom-left.png" style="float:left;width:15%"/>
           <img src="img/cornerflourishbottom-right.png" style="float:right;width:15%"/>
-          <p><button id="submit" name="submit" class="btn btn-info rsvp-button" value="submit">Submit</button></p>
+          <p><button id="submit" name="submit" style="background:#fdcac4;color:#FFF" class="btn btn-info rsvp-button" value="submit">Submit</button></p>
         </div>
         </div>
         </form>
